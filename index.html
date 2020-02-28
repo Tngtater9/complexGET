@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park Search</title>
+</head>
+<body>
+   <input id="search-term" type="text" placeholder="Enter a state code(s)" required>
+   <input id="result-quantity" type="number" min="1" placeholder="10">
+   <button type="submit">Find parks</button>
+   <p id="js-error-message"></p>
+   <section id="result-section">
+        <h3>Search Results</h3>
+        <ul id="results"></ul>
+    </section>
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
